@@ -1,0 +1,5 @@
+1. Qué hace esta ruta:
+La ruta POST '/reporte' recibe información enviada por el usuario en el "cuerpo" (body) de la solicitud (en formato JSON), específicamente un dato llamado "mensaje". Luego, el servidor procesa esa solicitud y responde enviando de vuelta un objeto JSON confirmando que el estado es "Reporte recibido" y adjuntando el mismo mensaje que el usuario envió.
+
+2. Para qué podría servir en una aplicación comunitaria:
+Esta ruta podría ser utilizada para que los ciudadanos envíen reportes de problemas en su barrio o sector (por ejemplo, daños en vías, fallas en servicios públicos, incidentes de seguridad, etc.). Una aplicación móvil o un formulario web tomaría la información ingresada por el ciudadano y la enviaría mediante una petición POST a esta ruta. El servidor recibiría el reporte y podría guardarlo en una base de datos para que la comunidad o las entidades correspondientes lo gestionen.

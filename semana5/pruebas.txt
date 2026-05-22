@@ -1,0 +1,5 @@
+- Al visitar "http://localhost:3000": El servidor responde con el texto "Servidor activo", que es la respuesta de la ruta raíz o principal ('/').
+
+- Al visitar "http://localhost:3000/saludo": El navegador muestra el texto "Hola comunidad", respondiendo a la ruta específica creada para enviar un saludo.
+
+- Al visitar "http://localhost:3000/mensaje/juan": El servidor lee el parámetro "juan" de la URL y responde de manera personalizada mostrando el texto "Hola juan". Si se cambia la palabra "juan" por otro nombre, la respuesta cambia dinámicamente mostrando el nombre ingresado.
